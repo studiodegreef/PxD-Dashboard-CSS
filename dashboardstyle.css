@@ -581,8 +581,6 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-
-
 /* PxD styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .introtext {
@@ -591,6 +589,11 @@ there.
   display: block;
   margin: 0 auto;
 }
+
+p, ul {
+  padding: 0 24px;
+}
+
 ul li {
   margin-bottom: 8px;
 }
@@ -598,10 +601,3 @@ ul li {
 body {
   background-color: #F4F6F2;
 }
-
-
-
-
-
-
-
