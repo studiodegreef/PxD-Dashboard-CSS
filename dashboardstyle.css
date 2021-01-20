@@ -586,12 +586,13 @@ there.
 /* PxD styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .introtext {
-  max-width: 960px;
+  max-width: 1280px;
+  padding: 24px;
   display: block;
   margin: 0 auto;
 }
 ul li {
-  margin-bottom: .75rem;
+  margin-bottom: 8px;
 }
 
 body {
