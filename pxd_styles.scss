@@ -28,7 +28,17 @@ div#_dash-app-content {
   max-width: 1280px;
   margin: 0 auto;
 }
-
+rect.updatemenu-item-rect {
+  fill: white!important;
+  fill-opacity: .85!important;
+}
+rect.updatemenu-item-rect:hover {
+  fill: white!important;
+  fill-opacity: 1!important;
+}
+.tab-parent .tab-container .tab.tab--selected {
+  border-top: 2px solid #6C9D30;
+}
 @media (max-width: 1280px) {
 
 }
