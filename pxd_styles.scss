@@ -2,8 +2,6 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
   color: #535353;
-  background-color: #e6e6e6;
-  padding: 12px;
 }
 .introtext {
   max-width: 1280px;
@@ -18,7 +16,22 @@ p, ul {
 ul li {
   margin-bottom: 8px;
 }
+body {
+  background-color: #e6e6e6;
+  padding: 12px;
+}
 .dash-graph {
   margin: 24px 0;
   padding: 12px;
+}
+div#_dash-app-content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+
+}
+@media (max-width: 960px) {
+  columns: 1;
 }
