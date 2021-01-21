@@ -33,5 +33,7 @@ div#_dash-app-content {
 
 }
 @media (max-width: 960px) {
-  columns: 1;
+  .introtext {
+  columns: 1    
+  } 
 }
