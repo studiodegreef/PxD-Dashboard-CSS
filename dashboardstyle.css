@@ -21,8 +21,12 @@
 /* PxD styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-  color: #535353; 
+  color: #535353;
   background-color: #e6e6e6;
+}
+
+.js-plotly-plot .plotly, .js-plotly-plot .plotly div {
+  font-family: "Roboto", Arial, Helvetica, sans-serif !important;
 }
 
 .introtext {
@@ -32,6 +36,11 @@ body {
   max-width: 1280px;
   padding: 24px;
   display: block;
+  margin: 0 auto;
+}
+
+div#_dash-app-content {
+  max-width: 1480px;
   margin: 0 auto;
 }
 
