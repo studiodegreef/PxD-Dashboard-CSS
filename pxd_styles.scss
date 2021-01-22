@@ -39,10 +39,13 @@ rect.updatemenu-item-rect:hover {
 .tab-parent .tab-container .tab.tab--selected {
   border-top: 2px solid #6C9D30;
 }
+.dash-graph {
+  background: #fbfbfb;
+}
 @media (max-width: 1280px) {
 
 }
-@media (max-width: 960px) {
+@media (max-width: 960px) { 
   .introtext {
   columns: 1    
   } 
