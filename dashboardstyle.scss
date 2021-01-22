@@ -18,6 +18,25 @@
 - PxD styles
 */
 
+
+// PAD styles go here:
+
+@import 'pxd_styles';
+
+
+
+
+
+/* 
+*
+*
+*
+* everything past this point is part of the default styles & codepen css file
+*
+*
+*
+*/
+
 /* PLotly.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* plotly.js's modebar's z-index is 1001 by default
@@ -415,5 +434,3 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
-@import 'pxd_styles';

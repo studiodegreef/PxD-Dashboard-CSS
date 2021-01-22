@@ -18,6 +18,53 @@
 
 - PxD styles
 */
+/* PxD styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  color: #535353; 
+  background-color: #e6e6e6;
+}
+
+.introtext {
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+  max-width: 1280px;
+  padding: 24px;
+  display: block;
+  margin: 0 auto;
+}
+
+rect.updatemenu-item-rect {
+  fill: white !important;
+  fill-opacity: 0.85 !important;
+}
+
+rect.updatemenu-item-rect:hover {
+  fill: white !important;
+  fill-opacity: 1 !important;
+}
+
+.tab-parent .tab-container .tab.tab--selected {
+  border-top: 2px solid #6C9D30;
+}
+
+@media (max-width: 960px) {
+  .introtext {
+    -webkit-columns: 1;
+       -moz-columns: 1;
+            columns: 1;
+  }
+}
+/* 
+*
+*
+*
+* everything past this point is part of the default styles & codepen css file
+*
+*
+*
+*/
 /* PLotly.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* plotly.js's modebar's z-index is 1001 by default
@@ -581,41 +628,3 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-/* PxD styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-body {
-  color: #535353;
-  background-color: #e6e6e6;
-}
-
-.introtext {
-  -webkit-columns: 2;
-     -moz-columns: 2;
-          columns: 2;
-  max-width: 1280px;
-  padding: 24px;
-  display: block;
-  margin: 0 auto;
-}
-
-rect.updatemenu-item-rect {
-  fill: white !important;
-  fill-opacity: 0.85 !important;
-}
-
-rect.updatemenu-item-rect:hover {
-  fill: white !important;
-  fill-opacity: 1 !important;
-}
-
-.tab-parent .tab-container .tab.tab--selected {
-  border-top: 2px solid #6C9D30;
-}
-
-@media (max-width: 960px) {
-  .introtext {
-    -webkit-columns: 1;
-       -moz-columns: 1;
-            columns: 1;
-  }
-}
