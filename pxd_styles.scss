@@ -9,11 +9,32 @@ body {
 }
 .introtext {
   columns: 2; 
-  max-width: 1280px;
+  // max-width: 1280px;
   padding: 24px;
   display: block;
   margin: 0 auto;
+} 
+h5 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
+.tab-content p {
+  max-width:  70em;
+  margin:  0 auto;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  color: #4c4c4c;
+} 
+h5 {
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+.Select-control { // max width & center on dropdown controls
+  background-color: #f3f3f3;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 // p, ul {
 //   padding: 0 24px;
 // }
@@ -34,20 +55,27 @@ div#_dash-app-content {
 }
 rect.updatemenu-item-rect {
   fill: white!important;
-  fill-opacity: .85!important;
+  fill-opacity: .95!important;
 }
 rect.updatemenu-item-rect:hover {
   fill: white!important;
   fill-opacity: 1!important;
 }
-.tab-parent .tab-container .tab.tab--selected {
+.tab-parent .tab-container .tab.tab--selected, 
+.tab-parent .tab-container .tab.jsx-3201076643:last-of-type.tab--selected {
   border-top: 2px solid #6C9D30;
 }
 // .dash-graph {
 // }
-@media (max-width: 1280px) {
 
+
+@media (max-width: 1260px) { 
+  .twelve.columns .six.columns {
+      width: 100%; // .six.columns full width under 1260 px to prevent cut off text in Challenges graphs
+      margin-left: 0;
+  }
 }
+
 @media (max-width: 960px) { 
   .introtext {
   columns: 1    
