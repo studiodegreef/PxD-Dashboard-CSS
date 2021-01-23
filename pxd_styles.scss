@@ -3,97 +3,97 @@
 body {
   color: #4c4c4c;
   background-color: #e6e6e6;
-}
-.js-plotly-plot .plotly, .js-plotly-plot .plotly div {
-  font-family: "Roboto", Arial, Helvetica, sans-serif!important;
-}
-.introtext {
-  columns: 2; 
-  max-width: 1280px;
-  padding: 32px;
-  display: block;
-  margin: 32px auto;
-  background-color: #f3f3f3; 
-  ul, li, p {
-    color: #6f6f6f
+
+  .js-plotly-plot .plotly, .js-plotly-plot .plotly div {
+    font-family: "Roboto", Arial, Helvetica, sans-serif!important;
   }
-  a {
+  .introtext {
+    columns: 2; 
+    max-width: 1280px;
+    padding: 32px;
+    display: block;
+    margin: 32px auto;
+    background-color: #f3f3f3; 
+    ul, li, p {
+      color: #6f6f6f
+    }
+    a {
+      color: #6C9D30;
+    }
+  } 
+  h5 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .tab-content {
+    p, ul {
+      max-width:  70em;
+      margin:  0 auto;
+      margin-bottom: 1.5em;
+      margin-top: 1.5em;
+      color: #4c4c4c;
+    } 
+  } 
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
     color: #6C9D30;
+    text-transform: uppercase;
   }
-} 
-h5 {
+  h5 {
   margin-bottom: 1rem;
   margin-top: 1rem;
-}
-.tab-content {
-  p, ul {
-    max-width:  70em;
-    margin:  0 auto;
-    margin-bottom: 1.5em;
-    margin-top: 1.5em;
-    color: #4c4c4c;
-  } 
-} 
-h1 {
-  font-size: 3rem;
-}
-h3 {
-  font-size: 2rem;
-  color: #6C9D30;
-  text-transform: uppercase;
-}
-h5 {
-margin-bottom: 1rem;
-margin-top: 1rem;
-}
-.Select-control, .Select { // max width & center on dropdown controls
-  background-color: #f3f3f3;
-  max-width: 600px;
-  margin: 0 auto;
-}
-.js-plotly-plot .plotly .main-svg {
-  background-color: transparent!important;
-}
-div#tabs {
-  max-width: 1352px;
-  margin: 0 auto;
-  width: 100%;
-  margin-bottom: 3rem;
-}
-// p, ul {
-//   padding: 0 24px;
-// }
-// ul li {
-//   margin-bottom: 8px;
-// }
-// body {
-//   background-color: #e6e6e6;
-//   padding: 12px;
-// }
-// .dash-graph {
-//   margin: 24px 0;
-//   padding: 12px;
-// }
-div#_dash-app-content {
-  max-width: 1480px;
-  margin: 0 auto;
-}
-rect.updatemenu-item-rect {
-  fill: white!important;
-  fill-opacity: .95!important;
-}
-rect.updatemenu-item-rect:hover {
-  fill: white!important;
-  fill-opacity: 1!important;
-}
-.tab-parent .tab-container .tab.tab--selected, 
-.tab-parent .tab-container .tab.jsx-3201076643:last-of-type.tab--selected {
-  border-top: 2px solid #6C9D30;
-}
-// .dash-graph {
-// }
+  }
+  .Select-control, .Select { // max width & center on dropdown controls
+    background-color: #f3f3f3;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .js-plotly-plot .plotly .main-svg {
+    background-color: transparent!important;
+  }
+  div#tabs {
+    max-width: 1352px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  // p, ul {
+  //   padding: 0 24px;
+  // }
+  // ul li {
+  //   margin-bottom: 8px;
+  // }
+  // body {
+  //   background-color: #e6e6e6;
+  //   padding: 12px;
+  // }
+  // .dash-graph {
+  //   margin: 24px 0;
+  //   padding: 12px;
+  // }
+  div#_dash-app-content {
+    max-width: 1480px;
+    margin: 0 auto;
+  }
+  rect.updatemenu-item-rect {
+    fill: white!important;
+    fill-opacity: .95!important;
+  }
+  rect.updatemenu-item-rect:hover {
+    fill: white!important;
+    fill-opacity: 1!important;
+  }
+  .tab-parent .tab-container .tab.tab--selected, 
+  .tab-parent .tab-container .tab.jsx-3201076643:last-of-type.tab--selected {
+    border-top: 2px solid #6C9D30;
+  }
+  // .dash-graph {
+  // }
 
-
+}
 @media (max-width: 1260px) { 
   .twelve.columns .six.columns, .four.columns, .eight.columns {
       width: 100%; // all columns full width under 1260 px to prevent cut off text in graphs

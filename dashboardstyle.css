@@ -24,12 +24,10 @@ body {
   color: #4c4c4c;
   background-color: #e6e6e6;
 }
-
-.js-plotly-plot .plotly, .js-plotly-plot .plotly div {
+body .js-plotly-plot .plotly, body .js-plotly-plot .plotly div {
   font-family: "Roboto", Arial, Helvetica, sans-serif !important;
 }
-
-.introtext {
+body .introtext {
   -webkit-columns: 2;
      -moz-columns: 2;
           columns: 2;
@@ -39,75 +37,63 @@ body {
   margin: 32px auto;
   background-color: #f3f3f3;
 }
-.introtext ul, .introtext li, .introtext p {
+body .introtext ul, body .introtext li, body .introtext p {
   color: #6f6f6f;
 }
-.introtext a {
+body .introtext a {
   color: #6C9D30;
 }
-
-h5 {
+body h5 {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-
-.tab-content p, .tab-content ul {
+body .tab-content p, body .tab-content ul {
   max-width: 70em;
   margin: 0 auto;
   margin-bottom: 1.5em;
   margin-top: 1.5em;
   color: #4c4c4c;
 }
-
-h1 {
+body h1 {
   font-size: 3rem;
 }
-
-h3 {
+body h3 {
   font-size: 2rem;
   color: #6C9D30;
   text-transform: uppercase;
 }
-
-h5 {
+body h5 {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-
-.Select-control, .Select {
+body .Select-control, body .Select {
   background-color: #f3f3f3;
   max-width: 600px;
   margin: 0 auto;
 }
-
-.js-plotly-plot .plotly .main-svg {
+body .js-plotly-plot .plotly .main-svg {
   background-color: transparent !important;
 }
-
-div#tabs {
+body div#tabs {
   max-width: 1352px;
   margin: 0 auto;
   width: 100%;
   margin-bottom: 3rem;
 }
-
-div#_dash-app-content {
+body div#_dash-app-content {
   max-width: 1480px;
   margin: 0 auto;
 }
-
-rect.updatemenu-item-rect {
+body rect.updatemenu-item-rect {
   fill: white !important;
   fill-opacity: 0.95 !important;
 }
-
-rect.updatemenu-item-rect:hover {
+body rect.updatemenu-item-rect:hover {
   fill: white !important;
   fill-opacity: 1 !important;
 }
-
-.tab-parent .tab-container .tab.tab--selected,
-.tab-parent .tab-container .tab.jsx-3201076643:last-of-type.tab--selected {
+body .tab-parent .tab-container .tab.tab--selected,
+body .tab-parent .tab-container .tab.jsx-3201076643:last-of-type.tab--selected {
   border-top: 2px solid #6C9D30;
 }
 
