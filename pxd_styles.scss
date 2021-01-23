@@ -1,7 +1,7 @@
 /* PxD styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-  color: #535353;
+  color: #4c4c4c;
   background-color: #e6e6e6;
 }
 .js-plotly-plot .plotly, .js-plotly-plot .plotly div {
@@ -9,32 +9,57 @@ body {
 }
 .introtext {
   columns: 2; 
-  // max-width: 1280px;
-  padding: 24px;
+  max-width: 1280px;
+  padding: 32px;
   display: block;
-  margin: 0 auto;
+  margin: 32px auto;
+  background-color: #f3f3f3; 
+  ul, li, p {
+    color: #6f6f6f
+  }
+  a {
+    color: #6C9D30;
+  }
 } 
 h5 {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-.tab-content p {
-  max-width:  70em;
-  margin:  0 auto;
-  margin-bottom: 1.5em;
-  margin-top: 1.5em;
-  color: #4c4c4c;
+.tab-content {
+  p, ul {
+    max-width:  70em;
+    margin:  0 auto;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    color: #4c4c4c;
+  } 
 } 
+h1 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+  color: #6C9D30;
+  text-transform: uppercase;
+}
 h5 {
 margin-bottom: 1rem;
 margin-top: 1rem;
 }
-.Select-control { // max width & center on dropdown controls
+.Select-control, .Select { // max width & center on dropdown controls
   background-color: #f3f3f3;
   max-width: 600px;
   margin: 0 auto;
 }
-
+.js-plotly-plot .plotly .main-svg {
+  background-color: transparent!important;
+}
+div#tabs {
+  max-width: 1352px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 3rem;
+}
 // p, ul {
 //   padding: 0 24px;
 // }
@@ -70,8 +95,8 @@ rect.updatemenu-item-rect:hover {
 
 
 @media (max-width: 1260px) { 
-  .twelve.columns .six.columns {
-      width: 100%; // .six.columns full width under 1260 px to prevent cut off text in Challenges graphs
+  .twelve.columns .six.columns, .four.columns, .eight.columns {
+      width: 100%; // all columns full width under 1260 px to prevent cut off text in graphs
       margin-left: 0;
   }
 }
