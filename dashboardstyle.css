@@ -97,6 +97,11 @@ body .tab-parent .tab-container .tab.jsx-3201076643:last-of-type.tab--selected {
   border-top: 2px solid #6C9D30;
 }
 
+@media (min-width: 1480px) {
+  body div#_dash-app-content {
+    max-width: 80%;
+  }
+}
 @media (max-width: 1260px) {
   .twelve.columns .six.columns, .four.columns, .eight.columns {
     width: 100%;
@@ -110,6 +115,11 @@ body .tab-parent .tab-container .tab.jsx-3201076643:last-of-type.tab--selected {
             columns: 1;
   }
 }
+.jsx-4017309047.tab-content .six.columns, .jsx-4017309047.tab-content .eight.columns {
+  margin: 0 auto;
+  float: none;
+}
+
 /* 
 *
 *

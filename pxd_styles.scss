@@ -94,6 +94,12 @@ body {
   // }
 
 }
+@media (min-width: 1480px) { 
+  body div#_dash-app-content {
+     max-width: 80%; 
+  }
+}
+
 @media (max-width: 1260px) { 
   .twelve.columns .six.columns, .four.columns, .eight.columns {
       width: 100%; // all columns full width under 1260 px to prevent cut off text in graphs
@@ -105,4 +111,11 @@ body {
   .introtext {
   columns: 1    
   } 
+}
+
+.jsx-4017309047.tab-content {
+ .six.columns, .eight.columns {
+  margin: 0 auto;
+  float: none
+ }
 }
