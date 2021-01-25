@@ -112,10 +112,14 @@ body {
   columns: 1    
   } 
 }
+.centered_graph.six.columns, .centered_graph.eight.columns {
+    margin: 0 auto;
+    float: none
+   }
 
-.jsx-4017309047.tab-content {
- .six.columns, .eight.columns {
-  margin: 0 auto;
-  float: none
- }
-}
+// .jsx-4017309047.tab-content {
+//  .six.columns, .eight.columns {
+//   margin: 0 auto;
+//   float: none
+//  }
+// }
