@@ -90,10 +90,10 @@ body div#_dash-app-content {
 }
 body rect.updatemenu-item-rect {
   fill: white !important;
-  fill-opacity: 1 !important;
+  fill-opacity: 0.95 !important;
 }
 body rect.updatemenu-item-rect:hover {
-  fill: #dbedc5 !important;
+  fill: white !important;
   fill-opacity: 1 !important;
 }
 body .tab-parent .tab-container .tab.tab--selected,
