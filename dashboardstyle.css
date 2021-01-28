@@ -83,8 +83,6 @@ body div#tabs {
   margin: 0 auto;
   width: 100%;
   margin-bottom: 3rem;
-  fill: white !important;
-  fill-opacity: 0.95 !important;
 }
 body div#_dash-app-content {
   max-width: 1480px;
