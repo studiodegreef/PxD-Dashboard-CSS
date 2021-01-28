@@ -56,7 +56,8 @@ body .tab-content p, body .tab-content ul {
   margin: 0 auto;
   margin-bottom: 1.5em;
   margin-top: 1.5em;
-  color: #4c4c4c;
+  color: #6C9D30;
+  text-transform: uppercase;
 }
 body h1 {
   font-size: 3rem;
